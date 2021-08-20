@@ -1,0 +1,42 @@
+object FrmMain: TFrmMain
+  Left = 0
+  Top = 0
+  Caption = 'FrmMain'
+  ClientHeight = 600
+  ClientWidth = 400
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object LytMain: TLayout
+    Align = Client
+    Size.Width = 400.000000000000000000
+    Size.Height = 600.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LytIndex: TLayout
+      Align = Client
+      Size.Width = 400.000000000000000000
+      Size.Height = 600.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+  object mtvMenu: TMultiView
+    Mode = Drawer
+    ShadowOptions.Color = claWhite
+    Size.Width = 250.000000000000000000
+    Size.Height = 600.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 1
+    object lytMenu: TLayout
+      Align = Client
+      Size.Width = 250.000000000000000000
+      Size.Height = 600.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+end

@@ -1,0 +1,15 @@
+{
+	"name": "mobile",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./",
+	"projects": [],
+	"dependencies": {
+		"github.com/adrianosantostreina/customthread": "^1.0.0",
+		"github.com/adrianosantostreina/loading": "^1.0.0",
+		"github.com/bittencourtthulio/router4delphi": "^1.0.6",
+		"github.com/viniciussanchez/dataset-serialize": "^v2.3.3",
+		"github.com/viniciussanchez/restrequest4delphi": "^v3.0.7"
+	}
+}

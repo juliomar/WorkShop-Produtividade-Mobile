@@ -1,0 +1,1168 @@
+object FrmViewMenu: TFrmViewMenu
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 600
+  ClientWidth = 400
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LytGeralMenu: TLayout
+    Align = Client
+    Size.Width = 400.000000000000000000
+    Size.Height = 600.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object recFundoMenu: TRectangle
+      Align = Contents
+      Fill.Color = xFF14181C
+      Size.Width = 400.000000000000000000
+      Size.Height = 600.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object lytMenuProc: TLayout
+      Align = Client
+      Size.Width = 400.000000000000000000
+      Size.Height = 600.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lytRodape: TLayout
+        Align = Bottom
+        Position.Y = 552.000000000000000000
+        Size.Width = 400.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Rectangle12: TRectangle
+          Align = Contents
+          Fill.Color = xFF2C343D
+          Size.Width = 400.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object Image2: TImage
+          MultiResBitmap.Height = 44
+          MultiResBitmap.Width = 150
+          MultiResBitmap = <
+            item
+              Width = 150
+              Height = 44
+              PNG = {
+                89504E470D0A1A0A0000000D49484452000000960000002C0806000000875041
+                F1000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                0D0A49444154785EED9C098C56D515C7998D994128833380155A456969AD548B
+                E2D66A8DB5A226B5516BB5B54BDA34DAAAA092B62EA912975A171AA34D63A341
+                24A215D0A24DA38CB190542A5091C52D4AA1CC0633C02CCC0CB3310BFDFDCF77
+                DEF37BF37DB338A3A27EEF97DCDC7BCF39F7DEF7EE3DEF2EEF7D332362626262
+                62626262623E70B23CFE58D3DEDEFEC59E9E9EE3F3F3F34F207B18219FFCDE9C
+                9C9C2DE8FE535050B0393B3BBBD98C6362FA03C729EEEAEA5A736010E05C6DFB
+                F7EF3FCD8BC6C4A4A7B4B4F410F79901E9EEEEBE8FE81331F3C61C04708EEC37
+                DF7C73A46747747474DC6B9ED30FD8DCE7E63131A9E0232359CAF6900C671E64
+                D9E63D7DC032B9D94D53409DB577EFDE99E5E5E56757545414BA38E623E4A02F
+                21DBB76F2F9A346952655656D6E379797957B9D8686B6B3B938DF92ACF46A8AF
+                AF3FB6B8B8F82DCF1A3854364BE3CB6CEA23FB2DE437B2B9BFC7B37DC2BE6E0E
+                51B702F67F312120BF98488706923D6DE8B6105E31A5837CB622C201D2CDBB77
+                EF5E71F8E187EB6191EE3AA22EC232CAED928CEB1F5B5454F423A5613BF2E795
+                D04341503F64EFD9B367E1C48913F7B9BC80F00B92ADD83E2A99A8AAAA2AC666
+                2EB269DCFBE6DCDCDC074837B93A63C9D24C45871D68696999E4B2089D9D9DEF
+                489F0C6534802960BBD54D52A8ABABBBCCCDD2525B5B3B4976AA5BB106DE5523
+                981D5F962C19ECBA77EDDA75BC9B68E053D8B66DDB49C93A1CEC643306EA9CEB
+                622DE9EA037BC88973A8BB2590CF9B372F5B72CA1E2A19BA2AE50575FC5CB2DE
+                603BCB4D32133AE655750433530351DAD9934EB2014FA6A1A16193AB43B01BE3
+                EAB4C811581AC7B9790A5CCB4DB2C3E646C5ADADAD0FB82A742C6684A52CB1E7
+                70BDEB94579DEBD7AFCF938DE729D6FA39EC9EF67C7DA013C98E85CE1EA8A6A6
+                A61714E3D89F919C64E85882BA1E92BCB763C9A9CD0090CD413F195B1D649427
+                DB33417619078373AEF50AD0218FB8382D74FE423735B0FF87AB42109724B47D
+                4387D713A57560748DB2D1002B16AE4A76AC3FBB48F69D92711FD728AF34B256
+                A2ACE0DE5467A0138163353636162B8FBE9999F102A5996D17B8AD3916A18707
+                E86DE988CFEAED585CCB4BCAD3D693CA073033AF949CFAC2072363E0BEB58F48
+                A6C0550683FB334F1AECC30AE8D02EB7D5C63DB2BF11886563CB587F5056FB94
+                08D5D5D513A46B6F6F6F559E4159AFFCA64D9B8E553E9D6321B3D936782894A6
+                FD6E822DDDBA967DFBF69D1FE844E05894F993F2CC3A3F4DD67B3A9CB1981D0F
+                553D04DDFB68C9489B6305CB3E5B8813950FA08D5FBBDD06171D146CFDFEA8A1
+                63C34D3A1D54CBC6BDDDB3C6D8B1636F210A67962953A6B4D361E11E8974A433
+                85EA282B2BBBDBB37D42D9FB3D1952525272BB620E0FABD15FCFE6F71DE5A74F
+                9FAE0D795AB0FBAA62C6708B091268169BAA0433D1D4D1A347DB86BC37DCF3A5
+                8AB9CF221CF47A9C60AFF29595955667009BFB7AF437705D39CDCDCDCFB8D8E0
+                7E6B1453D7252670383498F3B224BF61824C824DE94E3D558293CF9D2E3610E5
+                D2D11D38DFEF5D1442276E4B943A7060E9D2A5A35D1C81B2B3DDA44F78CA67BA
+                B9D0D255E7AA08D4650E9F34632DC6A166227FC20C80EB1F231BA591B7E0503F
+                519A7BAC26B207577941D99359D68A3C9B02F52F220A672C9515DCB7EDE9043A
+                9BB198D5CF769196BD59D43D86F043178923AD70A6C0CDE7FB8D1BBD4F834CFF
+                E324A703534E7E0CDA11560818B894992719CA6B90D2C24084AF29B81EDB5351
+                DF6E171994DF27F99A356B8E0C1CAB37940D4F5FCA53C6F658EE545A5A35F346
+                1C0BE7794869E2F07506B3D104742AAF192FC5B17440505EA00B4F85DCC7832E
+                8E405D37B949E640C75CEBF7AF4EDAEFE2103A7C81ABD5F9A52E0EA1C893AE56
+                071EEDE2B46092B373E7CE33700C3B790550871C2047360CCEB9B47317CE60FB
+                9D009CF872C9297B29E14AA53DFF3BDABD90F2911913DD1F08B6A4E2505F72FB
+                7BB66CD9924F7CAFF294D389517677E9F468051D64774AC7BE6B74907695B16A
+                D5AAA92A47FB37BBC860E99B816C296123F7B58883C134576516DC7C858D2EF0
+                A4CE757108FAC8069C19CCF62C01880A7082FDD261DBC506397C97D41F9867ED
+                D8B1E31A06DD8EF90C72661EC73FADE00C1D1A58C1D36CEF6E02D8EB1CEDAA10
+                39A2AB43583E2F76B5C193BCCC5503A2178E38D7F93856F23E6B50707D57D3D6
+                BD55555591D92620380526C38C72BA2723D0FE64C2719E9E4938A557986E864E
+                4D4DCDA9B47D3F33D31C6E39E5D02519BAD9D8DC43FF4C7671E680A3D8FB1FE2
+                4A1785B02CCD97AE377575753F709310CABFE56A837CB75E6AAE5DBB36E2AC1F
+                14DA83D1C60E06EE29B5C76C1B39C1E91719E8C325360007F92532BDBE883803
+                F5DCC1FDDA891287584F7883F2FB08CD4AA37F423A96C0C37810EA90EB40F312
+                65EC7506E9BBA41764B370A64674FF43BE447A18D44CFEA9810EB2F751C437B8
+                288419416FE053C0569BD9C8C06CDEBC7972429B0A9DFC1603FA3592F6567CB8
+                508F9DE43C2B6739C493210CE822DD1B33CBE52E32DCB174607897936CE874D8
+                DF2E99670D1CEA5FC8C37D25C5F4217E2FF2D52E322A2A2AA6D3560F0FD2F795
+                A7DF8E521B605F1668F350C519054FBE3916379FEF22439D22795F70AC7FD84D
+                43A8EB4E57A7057D1B83B2828D78F8DD6F285095BDD0A5AE0D44B92E8EC0E076
+                E128B318F04E1719722C64BBB8963DE8FFEBE2FE1CEB45CFEA21FCBADA859407
+                04DD62EAB4595F7A19517E9D293F061C8C17A43D74405976767687E70D3AEA7B
+                0CC223F4CFDCDADADA0BC86BFF5194E58C1F3FFE8A84E57B3CF7DC73F35826EC
+                E5623A468E1C59909393336BDCB8717AEA9751775AA718089A97934EE3FAC693
+                EDC489FE98D024282F2FBF233737B79CF0A2C6976BBAD05586063D2F2F4F33EC
+                28EE6B27F50CEAA73C1C5CBE89F3B5D17EC459056D3C8B5C9FB172A5E7FA7412
+                FDBCDAE2FA32EFC78F746C1D839CF25965A8E084C7A833070383A13DD0B01E26
+                06ED2CEE81314C7C1CA6BE5CD58DFC491C661ECBF04AF43BCC18346331E8F696
+                5C6DA3D377C046FAE0E681662CCA5DA6BA3D1B01DB5BD497A8230EC43D9EA732
+                5BB76E9DE7A283C2473E63D1D1CB383D453E4F0C87929292B7198C7F7AB65FF2
+                F3F30BE9F8DB3CFBBE60104F515C5858B812275AC67D7C5B79EAB3DF54313BEA
+                03F7848282027D383EECF5D75F8F6CEE05334B0F33D718E27ACADB3BAFFEA0CE
+                BFE37C9AE123EFAE04F77C13B3F172EA32C7C3EE5B8A69FF05EA5EC92CFD1DE5
+                33067D58F5E4A061A0B48728A1C3A6D18167928E3CA5C1DBFAC1C020A5FCE466
+                209815BF4CDB2A7B351BE6CB98497A70A8DF4A47DCC2FEEFC766E8708D0B085B
+                95A65C386325A3030636F64D3280FA233396A0AC7DA641FE7C4343C385D43797
+                367B92CBE2F4A713E4805713EC9312F107B62A7CA2A1C30E61AFF215E2ABE8C4
+                E57454259DDAAE4EEA0D9D76A5170B61F0D3FEE8AD37941DD2577FAEEBBB5C53
+                3BD7D4496CCB0CF169D4B7C60C92A099716A470E4FB98B7A3B4B00361B3D6960
+                F708E141CF86505F118EF4B61C8A365B70EE88230BF41707D747BD077519FC58
+                B071E3C63E3FCAF607E522DF181165D1A1AF25B47D53535373AB1789F934C313
+                7D9D8FF9FB8227749B571181A736FC64D41B74CD4491179883816B3C89702265
+                4F208C24AD37E5E6D8C4335C5F48B037DEEC213FAB58601FFECAA0A9A9A9C493
+                7A17156E09B019A598EB3B913A4ED635F6AA43EFA946793B0AFA709E4D7C06E1
+                54D2B635203D89708E15CA74B457A06386445959D942AF26442F211920BD5A88
+                80EC357D1076B3F705C5F561F819C56CDCA732785F60397A98BCFE7843A741FD
+                1DA4D276CC67E65CCDB59963205BE475E4220FDF3371DFAF292E2D2D9DC2326E
+                1FC0B946FD3C5A3FE8CBA2DC8AF9F3E7DBA7236F5B8E34853083740E75BDA276
+                F5D1BAAEAECE0E2FD83DAB7776B2553EA3A11386C5860D1BCEF6AA22A0D2CCA2
+                D9E438C2901C2A1906ED6F8A71ACA3482F21FEABF2FE603C86A3E9970BE658E8
+                16E12CB7D26E313273ACC6C6C6C5D89E19FCED24F285EBD6AD2B46B600FBA724
+                23FDAAECA96314F1E338DAB5D47B04E9A7A5579A3AED1B22B6E1CC84DDF58AD1
+                5F425D8B750DA6C854962C595248A7D82F158643737373E483ED8701831B38D6
+                5406F01B0CEC052E0F7F734EDA1C8B13DF62E5993D9EE6F634D079E89613DF8D
+                6E05D73B91A56E06F16AEAD1A67BB9ECD99C87BFA3C2DEBE15B27C2E0ADA4E76
+                2C64E1B7C2C031A9DFBE3050DF638A331A8ED0E15F9B0C153AB28B01B3F74C1F
+                160CA4FDDE9DE6F476FBF355555597CA4158925E25E887804731E83710CBB1E6
+                5B2140F61B1CE63C6630FB388EED6C641769C9AEAEAE3E0BFBECCACACA2B14A3
+                D3C7E8D5A4B5F4866FF7296FDF5529A73D94FDDE8AA5F618E4FFC67E2D0E172C
+                9972C295415B198F7E2980730C7BE6A28A47E9F8F82F9F63DE03BFD0A6BB36E1
+                22C383A7781D33A17EB395D97B8D9804720436B97370B001FF8CAB3FD8B7BCCB
+                CC95793F768B1918F60AB7E160F633E2C1206764A67AB9A3A323B37EE0163334
+                F019FD7F875F71F2D11F0BB425DC2801F91D84C7999D22BF8B8F898989898989
+                89898989898919142346FC1F158F6B6BF598AAF50000000049454E44AE426082}
+              FileName = 
+                'C:\Users\adrianosantos\Downloads\Logo Novo Clemilson\MANTERIAL L' +
+                'OGO ENVIO\LOGO EM PNG\LOGO-NEGATIVA-HORIZONTAL-delphi_23.png'
+            end>
+          Align = Right
+          MarginWrapMode = Center
+          Position.X = 278.000000000000000000
+          Size.Width = 122.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          WrapMode = Center
+        end
+      end
+      object lytGridGeral: TLayout
+        Align = Client
+        Size.Width = 400.000000000000000000
+        Size.Height = 504.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Rectangle16: TRectangle
+          Align = Contents
+          Fill.Color = xFF14181C
+          Size.Width = 400.000000000000000000
+          Size.Height = 504.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object lstMenu: TListBox
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 504.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'transparentlistboxstyle'
+          TabOrder = 0
+          DisableFocusEffect = True
+          DefaultItemStyles.ItemStyle = ''
+          DefaultItemStyles.GroupHeaderStyle = ''
+          DefaultItemStyles.GroupFooterStyle = ''
+          Viewport.Width = 400.000000000000000000
+          Viewport.Height = 504.000000000000000000
+          object lytClientes: TLayout
+            Align = Top
+            ClipChildren = True
+            Size.Width = 400.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 12
+            object Rectangle1: TRectangle
+              Align = Contents
+              Fill.Color = xFF2C343D
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout2: TLayout
+                Align = Left
+                Margins.Left = 4.000000000000000000
+                Margins.Top = 4.000000000000000000
+                Margins.Right = 4.000000000000000000
+                Margins.Bottom = 4.000000000000000000
+                Position.X = 4.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 44.000000000000000000
+                Size.Height = 36.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                OnClick = Layout2Click
+                object Path2: TPath
+                  Align = Center
+                  Data.Path = {
+                    1800000000000000000040410000804002000000A25863410000804002000000
+                    00008041BC4EB9400200000000008041000000410200000000008041A2582341
+                    02000000A258634100004041020000000000404100004041020000005EA71C41
+                    000040410200000000000041A258234102000000000000410000004102000000
+                    00000041BA4EB940020000005EA71C41FEFF7F40020000000100404100008040
+                    00000000000040410000604102000000295C834100006041020000000000A041
+                    D7A37C41020000000000A04100009041010000000000A0410000A04101000000
+                    000080400000A0410100000000008040000090410200000000008040D7A37C41
+                    020000005C8FF240000060410200000000004041000060410300000000004041
+                    00006041}
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label1: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Left = 4.000000000000000000
+                Size.Width = 344.000000000000000000
+                Size.Height = 44.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                Text = 'Clientes'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton1: TSpeedButton
+              Align = Contents
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              OnClick = SpeedButton1Click
+            end
+          end
+          object lytFornecedores: TLayout
+            Align = Top
+            ClipChildren = True
+            Position.Y = 44.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            object Rectangle2: TRectangle
+              Align = Contents
+              Fill.Color = xFF2C343D
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout4: TLayout
+                Align = Left
+                Margins.Left = 4.000000000000000000
+                Margins.Right = 4.000000000000000000
+                Margins.Bottom = 4.000000000000000000
+                Position.X = 4.000000000000000000
+                Size.Width = 44.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Path4: TPath
+                  Align = Center
+                  Data.Path = {
+                    18000000000000000000404100009041010000000000C0400000904101000000
+                    0000C04000006041010000000000404100006041000000000000A84100006041
+                    010000000000A84100004041010000000000A0410000E0400100000000008040
+                    0000E04001000000000040400000404101000000000040400000604101000000
+                    000080400000604101000000000080400000A04101000000000060410000A041
+                    0100000000006041000060410100000000009041000060410100000000009041
+                    0000A041010000000000A0410000A041010000000000A0410000604100000000
+                    0000A0410000804001000000000080400000804001000000000080400000C040
+                    010000000000A0410000C040010000000000A04100008040030000000000A041
+                    00008040}
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label2: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Left = 4.000000000000000000
+                Size.Width = 344.000000000000000000
+                Size.Height = 44.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                Text = 'Fornecedores'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton2: TSpeedButton
+              Align = Contents
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              OnClick = SpeedButton2Click
+            end
+          end
+          object lytProdutos: TLayout
+            Align = Top
+            ClipChildren = True
+            Position.Y = 88.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object Rectangle3: TRectangle
+              Align = Client
+              Fill.Color = xFF2C343D
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 390.000000000000000000
+              Size.Height = 34.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+            end
+            object Rectangle10: TRectangle
+              Align = Client
+              Fill.Color = xFF2C343D
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout8: TLayout
+                Align = Left
+                Margins.Left = 4.000000000000000000
+                Margins.Top = 4.000000000000000000
+                Margins.Right = 4.000000000000000000
+                Margins.Bottom = 4.000000000000000000
+                Position.X = 4.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 44.000000000000000000
+                Size.Height = 36.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Path8: TPath
+                  Align = Center
+                  Data.Path = {
+                    1F00000000000000000000400000004001000000000030410000004001000000
+                    0000304100003041010000000000004000003041010000000000004000000040
+                    0000000000001041000080400100000000008040000080400100000000008040
+                    0000104101000000000010410000104101000000000010410000804000000000
+                    0000B04100005041010000000000B0410000B04101000000000050410000B041
+                    010000000000504100005041010000000000B041000050410000000000007041
+                    0000A041010000000000A0410000A041010000000000A0410000704101000000
+                    000070410000704101000000000070410000A041000000000000804100000041
+                    0100000000008041000030410100000000005041000030410100000000005041
+                    0000004101000000000080410000004100000000000030410000804101000000
+                    0000004100008041010000000000004100005041010000000000304100005041
+                    010000000000304100008041030000000000304100008041}
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label3: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Left = 4.000000000000000000
+                Size.Width = 344.000000000000000000
+                Size.Height = 44.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                Text = 'Produtos'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton3: TSpeedButton
+              Align = Contents
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              OnClick = SpeedButton3Click
+            end
+          end
+          object lytPedidos: TLayout
+            Align = Top
+            ClipChildren = True
+            Position.Y = 132.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 11
+            object Rectangle4: TRectangle
+              Align = Client
+              Fill.Color = xFF2C343D
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout6: TLayout
+                Align = Left
+                Margins.Left = 4.000000000000000000
+                Margins.Top = 4.000000000000000000
+                Margins.Right = 4.000000000000000000
+                Margins.Bottom = 4.000000000000000000
+                Position.X = 4.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 44.000000000000000000
+                Size.Height = 36.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Path6: TPath
+                  Align = Center
+                  Data.Path = {
+                    2F000000000000000000B0400000A841020000003D0A97400000A84102000000
+                    AE4781406666A44102000000A4706D4033339F4101000000A4706D4033339F41
+                    01000000CDCC8C3F3D0A2741010000000000803F00002041020000000100803F
+                    D729174102000000BD4EB93F0000104102000000010000400000104101000000
+                    5C8FD240000010410100000048E132411F851B40020000008FC2354148E10A40
+                    020000005C8F3A410000004002000000000040410000004002000000A4704541
+                    000000400200000066664A4148E10A4002000000AE474D41F6281C4001000000
+                    295C8B4100001041010000000000B0410000104102000000146BB44100001041
+                    020000000000B841D7291741020000000000B841000020410100000014AEB741
+                    D7A3244101000000EC51A24133339F410200000014AE9F416666A44102000000
+                    713D9A410000A84102000000000094410000A841010000000000B0400000A841
+                    000000000000404114AE97400100000000001041000010410100000000007041
+                    00001041010000000000404114AE974000000000000040410000504102000000
+                    AF532E41000050410200000000002041AF535E41020000000000204100007041
+                    020000000000204129D6804102000000AF532E41000088410200000000004041
+                    000088410200000051AC514100008841020000000000604129D6804102000000
+                    00006041000070410200000000006041AF535E410200000051AC514100005041
+                    020000000000404100005041030000000000404100005041}
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label4: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Left = 4.000000000000000000
+                Size.Width = 344.000000000000000000
+                Size.Height = 44.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                Text = 'Pedidos'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton4: TSpeedButton
+              Align = Contents
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              OnClick = SpeedButton4Click
+            end
+          end
+          object lytNotasFiscais: TLayout
+            Align = Top
+            ClipChildren = True
+            Position.Y = 176.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 10
+            object Rectangle5: TRectangle
+              Align = Client
+              Fill.Color = xFF2C343D
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout5: TLayout
+                Align = Left
+                Margins.Left = 4.000000000000000000
+                Margins.Top = 4.000000000000000000
+                Margins.Right = 4.000000000000000000
+                Margins.Bottom = 4.000000000000000000
+                Position.X = 4.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 44.000000000000000000
+                Size.Height = 36.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Path5: TPath
+                  Align = Center
+                  Data.Path = {
+                    2800000000000000000080410000704101000000000010410000704101000000
+                    0000104100005041010000000000804100005041000000000000984100003041
+                    0100000000001041000030410100000000001041000010410100000000009841
+                    0000104100000000000098410000E04001000000000010410000E04001000000
+                    000010410000A04001000000000098410000A040000000000000A8410000803F
+                    010000000000E0400000803F02000000E17ABC400000803F020000000000A040
+                    85EBF13F020000000000A04000004040010000000000A0400000884102000000
+                    0000A04048E1904102000000CDCCBC4000009841020000000000E04000009841
+                    010000000000A841000098410200000048E1B04100009841020000000000B841
+                    48E19041020000000000B84100008841010000000000B8410000404002000000
+                    0000B84185EBF13F02000000CDCCB0410000803F020000000000A8410000803F
+                    00000000000040400000A04001000000000040400000A8410100000000009841
+                    0000A84101000000000098410000B84101000000000040400000B84102000000
+                    779DF23F0000B841020000000000803F29D6B041020000000100803F0000A841
+                    010000000100803F0000A04001000000000040400000A0400300000000004040
+                    0000A040}
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label5: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Left = 4.000000000000000000
+                Size.Width = 344.000000000000000000
+                Size.Height = 44.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                Text = 'Notas'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton5: TSpeedButton
+              Align = Contents
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object lytAgenda: TLayout
+            Align = Top
+            ClipChildren = True
+            Position.Y = 220.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 9
+            object Rectangle6: TRectangle
+              Align = Client
+              Fill.Color = xFF2C343D
+              Size.Width = 400.000000000000000000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout1: TLayout
+                Align = Left
+                Margins.Left = 4.000000000000000000
+                Margins.Top = 4.000000000000000000
+                Margins.Right = 4.000000000000000000
+                Margins.Bottom = 4.000000000000000000
+                Position.X = 4.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 44.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Path1: TPath
+                  Align = Center
+                  Data.Path = {
+                    42000000000000000000E0400000404101000000000010410000404101000000
+                    0000104100006041010000000000E04000006041010000000000E04000004041
+                    000000000000A8410000C040010000000000A8410000A041020000000000A841
+                    29D6A8410200000029D6A0410000B04102000000000098410000B04101000000
+                    0000A0400000B04102000000C3F578400000B0410200000000004040CDCCA841
+                    02000000000040400000A04101000000000040400000C0400200000001004040
+                    5DA79C4002000000BD4E7940FFFF7F40020000000100A0400000804001000000
+                    0000C04000008040010000000000C04000000040010000000000004100000040
+                    0100000000000041000080400100000000008041000080400100000000008041
+                    0000004001000000000090410000004001000000000090410000804001000000
+                    00009841000080400200000029D6A04100008040020000000000A8415EA79C40
+                    020000000000A8410000C040000000000000A040000000410100000000009841
+                    0000004101000000000098410000C040010000000000A0400000C04001000000
+                    0000A0400000004100000000000098410000A041010000000000984100002041
+                    010000000000A04000002041010000000000A0400000A0410100000000009841
+                    0000A04100000000000070410000604101000000000070410000404101000000
+                    0000884100004041010000000000884100006041010000000000704100006041
+                    0000000000003041000060410100000000003041000040410100000000005041
+                    0000404101000000000050410000604101000000000030410000604100000000
+                    0000E04000008041010000000000104100008041010000000000104100009041
+                    010000000000E04000009041010000000000E040000080410000000000007041
+                    0000904101000000000070410000804101000000000088410000804101000000
+                    0000884100009041010000000000704100009041000000000000304100009041
+                    0100000000003041000080410100000000005041000080410100000000005041
+                    00009041010000000000304100009041030000000000304100009041}
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label6: TLabel
+                Align = Client
+                AutoSize = True
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Left = 4.000000000000000000
+                Size.Width = 344.000000000000000000
+                Size.Height = 48.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                Text = 'Agenda'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton6: TSpeedButton
+              Align = Client
+              Size.Width = 400.000000000000000000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object lytPerfil: TLayout
+            Align = Top
+            ClipChildren = True
+            Position.Y = 144.000000000000000000
+            Size.Width = 396.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            Visible = False
+            TabOrder = 8
+            object Rectangle7: TRectangle
+              Align = Client
+              Fill.Color = xFF2C343D
+              Size.Width = 396.000000000000000000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout7: TLayout
+                Align = Top
+                Margins.Top = 10.000000000000000000
+                Position.Y = 10.000000000000000000
+                Size.Width = 396.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Path7: TPath
+                  Align = Center
+                  Data.Path = {
+                    3C000000000000000000904100009841010000000000C0400000984101000000
+                    0000C040CDCC8C41020000000000C0409A997941020000000000204100006841
+                    0200000000004041000068410200000000006041000068410200000000009041
+                    9A9979410200000000009041CDCC8C4100000000000040410000E04002000000
+                    7A825A410000E0400200000000007041867D0541020000000000704100002041
+                    02000000000070417A823A41020000007A825A41000050410200000000004041
+                    0000504102000000867D25410000504102000000000010417A823A4102000000
+                    00001041000020410200000000001041867D054102000000877D25410000E040
+                    02000000010040410000E0400000000000004041000040400200000029D64841
+                    0000404002000000000050415EA75C4002000000000050410000804002000000
+                    0000504151AC91400200000029D648410000A04002000000000040410000A040
+                    02000000D72937410000A040020000000000304151AC91400200000000003041
+                    0000804002000000000030415DA75C4002000000D82937410000404002000000
+                    000040410000404000000000000098410000404001000000B81E6D4100004040
+                    02000000666666411F85EB3F02000000CDCC54410000803F0200000000004041
+                    0000803F0200000033332B410000803F020000009A9919411F85EB3F02000000
+                    48E1124100004040010000000000A0400000404002000000BC4E794000004040
+                    0200000000004040BC4E794002000000000040400000A0400100000000004040
+                    00009841020000000000404029D6A04102000000BC4E79400000A84102000000
+                    0000A0400000A84101000000000098410000A8410200000029D6A0410000A841
+                    020000000000A84129D6A041020000000000A84100009841010000000000A841
+                    0000A040020000000000A841BC4E79400200000029D6A0410000404002000000
+                    0000984100004040030000000000984100004040}
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label7: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Bottom = 15.000000000000000000
+                Size.Width = 396.000000000000000000
+                Size.Height = 0.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 14.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                TextSettings.HorzAlign = Center
+                Text = 'Perfil'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton7: TSpeedButton
+              Align = Client
+              Size.Width = 396.000000000000000000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object lytSincronizar: TLayout
+            Align = Top
+            ClipChildren = True
+            Position.Y = 356.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 7
+            object Rectangle8: TRectangle
+              Align = Client
+              Fill.Color = xFF2C343D
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout9: TLayout
+                Align = Left
+                Margins.Left = 4.000000000000000000
+                Margins.Top = 4.000000000000000000
+                Margins.Right = 4.000000000000000000
+                Margins.Bottom = 4.000000000000000000
+                Position.X = 4.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 44.000000000000000000
+                Size.Height = 36.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Path9: TPath
+                  Align = Center
+                  Data.Path = {
+                    24000000000000000000404100009041020000000DFB0A410000904102000000
+                    0000C040F3047541020000000000C04000004041020000000000C04000003041
+                    020000000000C840E17A2041020000006666D640333313410100000014AEA740
+                    14AEF7400200000052B88E401F850F41020000000000804048E1264102000000
+                    00008040000040410200000000008040A258834102000000779DF2400000A041
+                    02000000000040410000A04101000000000040410000B8410100000000008041
+                    0000984101000000000040410000704100000000000040410000804001000000
+                    000040410000803F01000000000000410000A040010000000000404100001041
+                    01000000000040410000C04002000000F30475410000C0400200000000009041
+                    0DFB0A4102000000000090410000404102000000000090410000504102000000
+                    00008E411F855F410200000066668A41CDCC6C41010000007B1496417B148241
+                    02000000EC519C41E17A7041020000000000A041B81E5941020000000000A041
+                    00004041020000000000A041779DF24002000000A25883410000804002000000
+                    0000404101008040030000000000404100008040}
+                  Size.Width = 25.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label8: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Left = 4.000000000000000000
+                Size.Width = 344.000000000000000000
+                Size.Height = 44.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                Text = 'Sincronizar'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton8: TSpeedButton
+              Align = Contents
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object lytConfig: TLayout
+            Align = Top
+            ClipChildren = True
+            Position.Y = 448.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            object Rectangle9: TRectangle
+              Align = Client
+              Fill.Color = xFF2C343D
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout3: TLayout
+                Align = Left
+                Margins.Left = 4.000000000000000000
+                Margins.Top = 4.000000000000000000
+                Margins.Right = 4.000000000000000000
+                Margins.Bottom = 4.000000000000000000
+                Position.X = 4.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 44.000000000000000000
+                Size.Height = 36.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Path3: TPath
+                  Align = Center
+                  Data.Path = {
+                    8700000000000000000040410000004102000000A25863410000004102000000
+                    000080415EA71C410200000000008041000040410200000000008041A2586341
+                    02000000A258634100008041020000000000404100008041020000005EA71C41
+                    000080410200000000000041A258634102000000000000410000404102000000
+                    000000415DA71C41020000005EA71C41FFFFFF40020000000100404100000041
+                    00000000000040410000204102000000AF532E41000020410200000000002041
+                    AF532E41020000000000204100004041020000000000204151AC514102000000
+                    AF532E41000060410200000000004041000060410200000051AC514100006041
+                    020000000000604151AC51410200000000006041000040410200000000006041
+                    AF532E410200000051AC51410000204102000000000040410000204100000000
+                    000020410000B0410200000000001C410000B04102000000D7A318415C8FAE41
+                    0200000000001841D7A3AC41010000007B141241A47097410200000000000841
+                    A47095410200000052B8FE4052B89241020000007B14EE401F858F4101000000
+                    66669E409A99974102000000295C9740713D98410200000052B88E409A999741
+                    0200000048E18A400AD79541010000008FC21540EC51744102000000A4700D40
+                    CDCC704102000000AE471140E17A6C4102000000A4701D407B146A4101000000
+                    713D92401F854F4101000000000090400000404101000000713D924000003041
+                    01000000A4701D4085EB154102000000AE4711401F85134102000000A4700D40
+                    33330F41020000008FC2154014AE0B410100000048E18A40D7A3A84002000000
+                    52B88E409A99A14002000000295C974052B89E400200000066669E409A99A140
+                    010000007B14EE409A99C1400200000052B8FE40B81EB5400200000000000841
+                    713DAA40020000007B141241713DA240010000000000184148E11A4002000000
+                    D7A318411F850B400200000000001C4100000040020000000000204100000040
+                    01000000000060410000004002000000000064410000004002000000295C6741
+                    1F850B40020000000000684148E11A400100000085EB6D41713DA24002000000
+                    00007841713DAA4002000000EC518041B81EB54002000000E17A84419A99C140
+                    01000000666698419A99A14002000000F6289A4152B89E4002000000EC519C41
+                    9A99A14002000000AE479D41D7A3A84001000000AE47AD4114AE0B4102000000
+                    EC51AE4133330F41020000000AD7AD411F85134102000000EC51AC4185EB1541
+                    01000000A4709B41000030410100000000009C410000404101000000A4709B41
+                    0000504101000000EC51AC417B146A41020000000AD7AD41E17A6C4102000000
+                    EC51AE41CDCC704102000000AE47AD41EC51744101000000AE479D410AD79541
+                    02000000EC519C419A99974102000000F6289A41EC5198410200000066669841
+                    9A99974101000000E17A84419A998F4102000000EC51804152B8924102000000
+                    00007841A47095410200000085EB6D41A47097410100000000006841D7A3AC41
+                    02000000295C67415C8FAE4102000000000064410000B0410200000000006041
+                    0000B04101000000000020410000B04100000000000034410000804001000000
+                    7B142E411F85D3400200000048E11A411F85DB400200000085EB09410000F040
+                    020000003333FB40713D0641010000007B14AE403333EB40010000007B149640
+                    66660A41010000009A99D9403333234102000000CDCCCC4085EB354102000000
+                    CDCCCC40713D4A41020000009A99D940CDCC5C41010000008FC295408FC27541
+                    010000008FC2AD40AE478541010000001F85FB4085EB7941020000007B140A41
+                    000084410200000048E11A41B81E89410200000085EB2D413D0A8B4101000000
+                    0AD733410000A04101000000F6284C410000A041010000007B145241B81E8B41
+                    02000000B81E6541B81E89410200000085EB75410000844102000000B81E8141
+                    85EB7941010000005C8F9441AE478541010000005C8F9A418FC2754101000000
+                    9A998941C3F55C4102000000CDCC8C41713D4A4102000000CDCC8C4185EB3541
+                    020000009A9989413333234101000000E17A9A4166660A4101000000E17A9441
+                    3333EB400100000033338141713D0641020000007B1476410000F04002000000
+                    B81E65411F85DB400200000085EB51410AD7D3400100000000004C4100008040
+                    010000000000344100008040030000000000344100008040}
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label9: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Left = 4.000000000000000000
+                Size.Width = 344.000000000000000000
+                Size.Height = 44.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                Text = 'Configurar'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton9: TSpeedButton
+              Align = Contents
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object lytRelatorios: TLayout
+            Align = Top
+            ClipChildren = True
+            Position.Y = 312.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 6
+            object Rectangle13: TRectangle
+              Align = Client
+              Fill.Color = xFF2C343D
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout11: TLayout
+                Align = Left
+                Margins.Left = 4.000000000000000000
+                Margins.Top = 4.000000000000000000
+                Margins.Right = 4.000000000000000000
+                Margins.Bottom = 4.000000000000000000
+                Position.X = 4.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 44.000000000000000000
+                Size.Height = 36.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Path10: TPath
+                  Align = Center
+                  Data.Path = {
+                    2300000000000000000050410000104101000000000094410000104101000000
+                    0000504100006040010000000000504100001041000000000000C04000000040
+                    010000000000604100000040010000000000A04100000041010000000000A041
+                    0000A041020000000000A04129D6A8410200000029D698410000B04102000000
+                    000090410000B041010000000000C0400000B04102000000E17A9C400000B041
+                    0200000000008040CDCCA84102000000000080400000A0410100000000008040
+                    000080400200000000008040C3F5384002000000E17A9C400000004002000000
+                    0000C04000000040000000000000E0400000A04101000000000010410000A041
+                    010000000000104100006041010000000000E04000006041010000000000E040
+                    0000A04100000000000030410000A04101000000000050410000A04101000000
+                    000050410000404101000000000030410000404101000000000030410000A041
+                    00000000000070410000A04101000000000088410000A0410100000000008841
+                    0000804101000000000070410000804101000000000070410000A04103000000
+                    000070410000A041}
+                  Size.Width = 25.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label11: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Left = 4.000000000000000000
+                Size.Width = 344.000000000000000000
+                Size.Height = 44.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                Text = 'Relat'#243'rios'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton10: TSpeedButton
+              Align = Client
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object lytMensagens: TLayout
+            Align = Top
+            ClipChildren = True
+            Position.Y = 268.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+            object Rectangle14: TRectangle
+              Align = Client
+              Fill.Color = xFF2C343D
+              Size.Width = 400.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout13: TLayout
+                Align = Left
+                Margins.Left = 4.000000000000000000
+                Margins.Top = 4.000000000000000000
+                Margins.Right = 4.000000000000000000
+                Margins.Bottom = 4.000000000000000000
+                Position.X = 4.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 44.000000000000000000
+                Size.Height = 36.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Path11: TPath
+                  Align = Center
+                  Data.Path = {
+                    260000000000000000004041000040400200000000008C410000404002000000
+                    0000B0415C8FD240020000000000B04100003041020000000000B04152B87641
+                    0200000000008C410000984102000000000040410000984102000000F6282C41
+                    0000984102000000B81E19415C8F9641020000001F8507410000944102000000
+                    9A99B1400000A84102000000000000400000A84102000000000000400000A841
+                    020000005C8F8A40295C95410200000066669640CDCC88410200000000009840
+                    000084410200000033334340B81E714102000000000000407B14524102000000
+                    000000400000304102000000000000405C8FD240020000000000D04000004040
+                    0200000000004041000040400000000000008841000040410100000000008841
+                    0000204101000000000070410000204101000000000070410000404101000000
+                    0000884100004041000000000000504100004041010000000000504100002041
+                    0100000000003041000020410100000000003041000040410100000000005041
+                    0000404100000000000010410000404101000000000010410000204101000000
+                    0000E04000002041010000000000E04000004041010000000000104100004041
+                    030000000000104100004041}
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label12: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Left = 4.000000000000000000
+                Size.Width = 344.000000000000000000
+                Size.Height = 44.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                Text = 'Chat'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton11: TSpeedButton
+              Align = Contents
+              Margins.Left = 10.000000000000000000
+              Size.Width = 390.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object lytAjuda: TLayout
+            Align = Top
+            ClipChildren = True
+            Position.Y = 400.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            object Rectangle15: TRectangle
+              Align = Client
+              Fill.Color = xFF2C343D
+              Size.Width = 400.000000000000000000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout15: TLayout
+                Align = Left
+                Margins.Left = 4.000000000000000000
+                Margins.Top = 4.000000000000000000
+                Margins.Right = 4.000000000000000000
+                Margins.Bottom = 4.000000000000000000
+                Position.X = 4.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 44.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Path12: TPath
+                  Align = Center
+                  Data.Path = {
+                    2C00000000000000000030410000904101000000000050410000904101000000
+                    0000504100008041010000000000304100008041010000000000304100009041
+                    00000000000040410000C040020000005EA71C410000C0400200000000000041
+                    BC4EF94002000000000000410000204101000000000020410000204102000000
+                    00002041AE530E4102000000AF532E4100000041020000000000404100000041
+                    0200000051AC5141000000410200000000006041AF530E410200000000006041
+                    00002041020000000000604100004041020000000000304100003C4102000000
+                    0000304100007041010000000000504100007041020000000000504100004C41
+                    0200000000008041000048410200000000008041000020410200000000008041
+                    BC4EF94002000000A25863410000C04002000000000040410000C04000000000
+                    0000A040000040400100000000009841000040400200000029D6A04100004040
+                    020000000000A841BC4E7940020000000000A8410000A040010000000000A841
+                    00009841020000000000A84129D6A0410200000029D6A0410000A84102000000
+                    000098410000A841010000000000A0400000A84102000000BC4E79400000A841
+                    020000000000404029D6A0410200000000004040000098410100000000004040
+                    0000A0400200000001004040BA4E794002000000BD4E7940FFFF3F4002000000
+                    0100A04000004040030000000000A04000004040}
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Label13: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                HitTest = True
+                Margins.Left = 4.000000000000000000
+                Size.Width = 344.000000000000000000
+                Size.Height = 48.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = xFFC5CDD7
+                Text = 'Ajuda'
+                TabOrder = 1
+              end
+            end
+            object SpeedButton12: TSpeedButton
+              Align = Contents
+              Size.Width = 400.000000000000000000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+        end
+      end
+      object lytTool: TLayout
+        Align = Top
+        Size.Width = 400.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Rectangle11: TRectangle
+          Align = Contents
+          Fill.Color = xFF2C343D
+          Size.Width = 400.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object Label10: TLabel
+          Align = Client
+          StyledSettings = [Family]
+          Size.Width = 400.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = xFFC5CDD7
+          TextSettings.HorzAlign = Center
+          Text = 'Menu'
+          TabOrder = 0
+        end
+      end
+    end
+  end
+end

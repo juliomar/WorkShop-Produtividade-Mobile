@@ -1,0 +1,115 @@
+object FrmViewMenu: TFrmViewMenu
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 600
+  ClientWidth = 400
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle3: TRectangle
+    Align = Contents
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF1E319D
+        Offset = 0.006211180239915848
+      end
+      item
+        Color = xFF5A6DDD
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Fill.Gradient.StopPosition.Y = 0.000000000000000000
+    Size.Width = 400.000000000000000000
+    Size.Height = 600.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object lytMenu: TLayout
+    Align = Center
+    Size.Width = 269.000000000000000000
+    Size.Height = 126.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object lytBtnFornecedores: TLayout
+      Align = Top
+      ClipChildren = True
+      Margins.Top = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 269.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object SpeedButton1: TSpeedButton
+        Align = Client
+        Size.Width = 269.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle2: TRectangle
+        Align = Client
+        Fill.Color = xFF5A6DDD
+        Size.Width = 269.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 24.000000000000000000
+        YRadius = 24.000000000000000000
+      end
+      object Label2: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Size.Width = 269.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Fornecedores'
+      end
+    end
+    object Layout2: TLayout
+      Align = Top
+      ClipChildren = True
+      Margins.Top = 10.000000000000000000
+      Position.Y = 68.000000000000000000
+      Size.Width = 269.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object SpeedButton2: TSpeedButton
+        Align = Client
+        Size.Width = 269.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle1: TRectangle
+        Align = Client
+        Fill.Color = xFF5A6DDD
+        Size.Width = 269.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 24.000000000000000000
+        YRadius = 24.000000000000000000
+      end
+      object Label1: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Size.Width = 269.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Clientes'
+      end
+    end
+  end
+end

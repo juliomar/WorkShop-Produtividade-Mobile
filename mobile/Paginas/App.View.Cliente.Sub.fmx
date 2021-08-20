@@ -1,0 +1,389 @@
+object FrmCadClientes: TFrmCadClientes
+  Left = 0
+  Top = 0
+  Caption = 'FrmFornecedores'
+  ClientHeight = 600
+  ClientWidth = 400
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object LytGeral: TLayout
+    Align = Client
+    Size.Width = 400.000000000000000000
+    Size.Height = 600.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle3: TRectangle
+      Align = Contents
+      Fill.Color = xFF14181C
+      Size.Width = 400.000000000000000000
+      Size.Height = 600.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object lytTool: TLayout
+      Align = Top
+      Size.Width = 400.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Rectangle11: TRectangle
+        Align = Contents
+        Fill.Color = xFF2C343D
+        Size.Width = 400.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Label20: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 4.000000000000000000
+        Size.Width = 300.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFC5CDD7
+        Text = 'Novo Cliente'
+        TabOrder = 0
+      end
+      object Layout13: TLayout
+        Align = Left
+        ClipChildren = True
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Position.X = 2.000000000000000000
+        Position.Y = 2.000000000000000000
+        Size.Width = 44.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Path7: TPath
+          Align = Client
+          Data.Path = {
+            08000000000000005C8F7641D7A3844101000000AE472D410000404101000000
+            5C8F7641B81EED4001000000000060410000C040010000000000004100004041
+            010000000000604100009041010000005C8F7641D7A38441030000005C8F7641
+            D7A38441}
+          Margins.Left = 14.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 14.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 16.000000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object SpeedButton1: TSpeedButton
+          Align = Client
+          Size.Width = 44.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = SpeedButton1Click
+        end
+      end
+      object Layout8: TLayout
+        Align = Right
+        ClipChildren = True
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Position.X = 354.000000000000000000
+        Position.Y = 2.000000000000000000
+        Size.Width = 44.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Path1: TPath
+          Align = Client
+          Data.Path = {
+            08000000000000000000A8410000E04001000000000010410000984101000000
+            000060400000584101000000B81E9D40A47041410100000000001041295C8141
+            0100000052B89C4148E1B240010000000000A8410000E040030000000000A841
+            0000E040}
+          Margins.Left = 8.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 8.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 28.000000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object SpeedButton2: TSpeedButton
+          Align = Client
+          Size.Width = 44.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = SpeedButton2Click
+        end
+      end
+    end
+    object Layout1: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 82.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      object edtApelido: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        Text = 'Adriano Santos Treinamentos'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout2: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 322.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      object edtFone: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        Text = '(11) 9-9831-0204'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout3: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 282.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      object edtCEP: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        Text = '03423-000'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout4: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 242.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object edtBairro: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        Text = 'Vila Carr'#227'o'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout5: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 202.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object edtEndereco: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        Text = 'Rua XPTO, no. 100'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout6: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 162.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object edtCNPJ: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        Text = '10.001.001/0001-31'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout7: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 122.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object edtRazao: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        Text = 'Adriano Santos Treinamentos Ltda ME'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object lblID: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 4.000000000000000000
+      Margins.Top = 4.000000000000000000
+      Margins.Right = 4.000000000000000000
+      Margins.Bottom = 4.000000000000000000
+      Position.X = 4.000000000000000000
+      Position.Y = 52.000000000000000000
+      Size.Width = 392.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claAliceblue
+      Text = 'lblID'
+      TabOrder = 8
+    end
+    object Button1: TButton
+      Align = Bottom
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 4.000000000000000000
+      Margins.Top = 4.000000000000000000
+      Margins.Right = 4.000000000000000000
+      Margins.Bottom = 4.000000000000000000
+      Position.X = 4.000000000000000000
+      Position.Y = 552.000000000000000000
+      Size.Width = 392.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      Text = 'Excluir'
+      OnClick = Button1Click
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = DM.MemPessoa
+    ScopeMappings = <>
+    Left = 40
+    Top = 352
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 40
+    Top = 397
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'PES_FANTASIA'
+      Control = edtApelido
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'PES_RAZAOSOCIAL'
+      Control = edtRazao
+      Track = False
+    end
+    object LinkControlToField3: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'PES_CPFCNPJ'
+      Control = edtCNPJ
+      Track = False
+    end
+    object LinkPropertyToFieldText: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'PES_ID'
+      Component = lblID
+      ComponentProperty = 'Text'
+    end
+  end
+end

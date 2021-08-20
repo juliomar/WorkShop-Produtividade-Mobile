@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{366AB81C-5F20-41FC-886E-BE2308D953DA}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="servidor\SrvWorkshop.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mobile\AppMobile.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SrvWorkshop">
+        <MSBuild Projects="servidor\SrvWorkshop.dproj"/>
+    </Target>
+    <Target Name="SrvWorkshop:Clean">
+        <MSBuild Projects="servidor\SrvWorkshop.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SrvWorkshop:Make">
+        <MSBuild Projects="servidor\SrvWorkshop.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AppMobile">
+        <MSBuild Projects="mobile\AppMobile.dproj"/>
+    </Target>
+    <Target Name="AppMobile:Clean">
+        <MSBuild Projects="mobile\AppMobile.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AppMobile:Make">
+        <MSBuild Projects="mobile\AppMobile.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SrvWorkshop;AppMobile"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SrvWorkshop:Clean;AppMobile:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SrvWorkshop:Make;AppMobile:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

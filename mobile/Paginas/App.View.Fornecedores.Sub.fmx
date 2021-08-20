@@ -1,0 +1,287 @@
+object FrmCadFornecedores: TFrmCadFornecedores
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 600
+  ClientWidth = 400
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LytGeral: TLayout
+    Align = Client
+    Size.Width = 400.000000000000000000
+    Size.Height = 600.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle3: TRectangle
+      Align = Contents
+      Fill.Color = xFF14181C
+      Size.Width = 400.000000000000000000
+      Size.Height = 600.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object lytTool: TLayout
+      Align = Top
+      Size.Width = 400.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Rectangle11: TRectangle
+        Align = Contents
+        Fill.Color = xFF2C343D
+        Size.Width = 400.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Label20: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 4.000000000000000000
+        Size.Width = 348.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFC5CDD7
+        Text = 'Novo Fornecedor'
+        TabOrder = 0
+      end
+      object Layout13: TLayout
+        Align = Left
+        ClipChildren = True
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Position.X = 2.000000000000000000
+        Position.Y = 2.000000000000000000
+        Size.Width = 44.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Path7: TPath
+          Align = Client
+          Data.Path = {
+            08000000000000005C8F7641D7A3844101000000AE472D410000404101000000
+            5C8F7641B81EED4001000000000060410000C040010000000000004100004041
+            010000000000604100009041010000005C8F7641D7A38441030000005C8F7641
+            D7A38441}
+          Margins.Left = 14.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 14.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 16.000000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object SpeedButton1: TSpeedButton
+          Align = Client
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = SpeedButton1Click
+        end
+      end
+    end
+    object Layout1: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 51.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      object edtApelido: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        ReadOnly = True
+        Text = 'Adriano Santos Treinamentos'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout2: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 291.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      object edtFone: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        ReadOnly = True
+        Text = '(11) 9-9831-0204'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout3: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 251.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      object edtCEP: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        ReadOnly = True
+        Text = '03423-000'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout4: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 211.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object edtBairro: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        ReadOnly = True
+        Text = 'Vila Carr'#227'o'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout5: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 171.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object edtEndereco: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        ReadOnly = True
+        Text = 'Rua XPTO, no. 100'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout6: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 131.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object edtCNPJ: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        ReadOnly = True
+        Text = '10.001.001/0001-31'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+    object Layout7: TLayout
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 91.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object edtRazao: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        ReadOnly = True
+        Text = 'Adriano Santos Treinamentos Ltda ME'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFE0E0E0
+        Size.Width = 394.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+      end
+    end
+  end
+end
